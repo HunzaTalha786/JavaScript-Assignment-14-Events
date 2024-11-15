@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>EVENTS <br>Assignment # 43-48</h2>
+<!-- question#1 -->
+    <h1>1. Show an alert box on click on a link.</h1>
+    <h3>click the below link:</h3>
+    <a id="link" onclick="showAlert()" href="#">Click Me</a>
+
+
+    <!-- question# 2 -->
+    <h1>2.Click the below images to get altert message</h2>
+    <div class="img">
+    <img class="mobile" onclick="showImageAltert()" src="./images/64c66f15fb22944d64226673-simple-mobile-nokia-c100-32gb-blue.jpg" alt="">
+    <img class="mobile" onclick="showImageAltert()" src="./images/m-2.jpg" alt="">
+    <img class="mobile" onclick="showImageAltert()" src="./images/m3.webp" alt="">
+</div>
+
+
+<!-- question# 3 -->
+ <h1>3.Students records</h1>
+
+ <div class="record">
+    <table border="1px">
+
+        <tr class="row">
+            <th>STUDENT ID</th>
+            <th>NAME</th>
+            <th>CLASS</th>
+            <th></th>
+        </tr>
+        <tr  class="row">
+            <td  >123</td>
+            <td >HUNZA</td>
+            <td >10th</td>
+            <td ><button onclick=" deleteData()" class="delete">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td >124</td>
+            <td >Talha</td>
+            <td>9th</td>
+            <td ><button  onclick=" delet()" class="delete">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td >125</td>
+            <td >Jhon</td>
+            <td >5th</td>
+            <td ><button  onclick=" deleteRow()" class="delete">Delete</button></td>
+        </tr>
+        <tr class="row">
+            <td>126</td>
+            <td>Marry</td>
+            <td>8th</td>
+            <td><button  onclick=" row()" class="delete">Delete</button></td>
+        </tr>
+
+    </table>
+ </div>
+
+ <!-- question#4 -->
+
+ <h1>4.Hover on picture to see MouseOver and MouseOut event</h1>
+
+ <img src="./images/f1.jpeg" onmouseover="src='./images/f2.jpg'" onmouseout="src='./images/f1.jpeg'" alt="flower">
+
+ <!-- question#5 -->
+
+ <h1>5.Counter Number App</h1>
+
+<div class="counter-container">
+    <p class="counter" id="counter">0</p>
+
+    <button class="delete" onclick="increaseCounter()">Increase</button>
+    <button  class="delete" onclick="decreaseCounter()">Decrease</button>
+</div>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

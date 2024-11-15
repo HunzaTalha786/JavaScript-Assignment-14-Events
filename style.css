@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    color: rgb(245, 199, 143);
+}
+
+h1{
+    color: rgb(243, 168, 54);
+    margin-top: 1rem;
+}
+#link{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    color: cadetblue;
+}
+
+.img{
+    display: flex;
+   
+}
+
+.img img{
+    width: 20vw;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+
+}
+
+.row{
+    border: 2px solid green;
+}
+.delete{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
